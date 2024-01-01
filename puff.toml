@@ -1,0 +1,20 @@
+paths = ["src", "tests", "fixtures"]
+ignored_paths = ["var"]
+
+[formatter]
+enabled = true
+
+[formatter.rule_sets]
+# TODO: For compatibility, implement php cs fixer, pint, etc... rulesets
+# (Drop-in replacement FTW)
+recommended = true
+
+[formatter.rules.quoting]
+enabled = true
+style = "single"
+ignore_escaped_quotes = false
+interpolate_vars_in_double_quotes = "preserve" # ["preserve", "concat", "never"]
+
+[vcs]
+system = "git"
+ignore_file = ".gitignore" # default if git is enabled

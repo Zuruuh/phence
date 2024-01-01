@@ -1,0 +1,3 @@
+[submodule "projects/symfony"]
+	path = projects/symfony
+	url = git@github.com:Symfony/Symfony.git

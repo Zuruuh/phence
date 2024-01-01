@@ -1,0 +1,2 @@
+- benchmark formatter against popular other formatters (phpcsfixer, pint, phpcbf, easy coding standards, prettier php plugin)
+- linter
